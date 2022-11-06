@@ -1,0 +1,198 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+*{
+  padding: 0%;
+  margin: 0%;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  /* min-width: 768px;
+  max-width: 320px; */
+}
+
+body{
+  font-family: montserrat;
+
+}
+
+.barra{
+  background: #0082e6;
+  height: 80px;
+  width: 153.6%;
+  margin-left: -27%;
+  margin-top: -3%;
+}
+
+label.logo{
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+
+.logo{
+  margin-left: -45%;
+}
+
+.barra ul{
+  float: right;
+  margin-right: 200px;
+}
+
+.barra ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 20px;
+}
+
+.barra ul li a{
+  color: white;
+  font-size: 17px;
+  
+  
+}
+
+.login{
+  background-color: grey;
+}
+
+.header{
+  background-color: grey;
+  height: 55px;
+  width: 153.6%;
+  margin-left: -27%;
+  
+  
+}
+.popular{
+  margin-left: -63.5%;
+  margin-right: 200px;
+}
+
+.listados{
+  font-family: 'Courier New', Courier, monospace;
+  float: left;
+  display: flex;
+  gap: 2rem;
+  line-height: 80px;
+  margin: 0 -140px;
+  margin-top: 4%;
+  
+}
+
+.peliculas{
+  background-image: url('https://res.cloudinary.com/di5oqdvwa/image/upload/v1667653291/imagenes/Captura_de_pantalla_2022-11-05_140112_tos3wx.png');
+  background-size: cover;
+  background-position: center;
+  
+  
+}
+
+.series{
+  background-image: url('https://res.cloudinary.com/di5oqdvwa/image/upload/v1667653291/imagenes/Captura_de_pantalla_2022-11-05_140112_tos3wx.png');
+  /* margin-top: 20%; */
+  background-size: cover;
+  background-position: center;
+  
+}
+
+
+
+
+.titulo{
+  color: white;
+  height: 16rem;
+  width: 10rem;
+  
+  
+}
+
+
+.home {
+  background-color: grey;
+  float: left;
+  width: 153.1%;
+  height: 60px;
+  margin-left: -26.5%;
+  margin-top: 32.6%;
+  
+}
+
+.listSeries{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 30px;
+  margin-top: 30%;
+
+  
+  
+}
+
+.listPeliculas{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 30px;
+  margin-top: 30%;
+  
+}
+
+.SerieImage{
+  max-width:100%;
+  max-height:100%;
+  
+}
+
+.PeliImage{
+  max-width:100%;
+  max-height:100%;
+}
+
+
+
+/* .nav{
+  float: left;
+  display: inline-block;
+  
+  background-image: url('');
+} */
